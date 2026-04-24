@@ -56,6 +56,15 @@ python scan_platesmania.py \
   --save-debug-html
 ```
 
+# Рекомендуемый запуск
+```bash
+python scan_platesmania.py \
+  --segment-concurrency 2 \
+  --delay-min 1.8 \
+  --delay-max 4.0 \
+  --save-debug-html
+```
+
 ## Колонки CSV
 
 - `filename` - имя будущего файла изображения
